@@ -180,7 +180,7 @@ namespace BitwiseOperations
             }
 
             // Display the first bit number that is ON and show the decimal with the bit turned off
-            code = code - mask;  // Switch that bit off.  (Alternative to XOR ???)
+            code = code - mask;  // Switch that bit off.  
             No6Label.Text = string.Format("Bit no {0} was set to ON but is now OFF. Decimal {1}", OnBit + 1, code);
         }
 
