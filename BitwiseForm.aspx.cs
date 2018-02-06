@@ -110,8 +110,7 @@ namespace BitwiseOperations
         {
             /*
              * Work out the bitwise NOT of a given number with a 1 byte integer
-             * Uses two's complement.
-             * Not sure why 8 comes back as -9 ????
+             * Uses two's complement.             
             */
 
             int num1 = int.Parse(NotTextBox.Text);
